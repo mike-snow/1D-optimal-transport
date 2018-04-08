@@ -26,7 +26,7 @@ class OptimalTransport():
     def _normalise(self, density):
         return density / float(np.sum(density))
         
-    def _optimaltransport(source, target):
+    def _optimaltransport(self):
 
     # normalise densities to have equal sum. Integers for ease.
     

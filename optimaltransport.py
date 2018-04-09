@@ -30,7 +30,7 @@ class OptimalTransport():
 
     # normalise densities to have equal sum. Integers for ease.
     
-        f_x, g_y = self._normalise(self.source, self.target), self._normalise(self.target, self.source)
+        f_x, g_y = self._normalise(self.source), self._normalise(self.target)
       
         m, n = len(f_x), len(g_y)
 
